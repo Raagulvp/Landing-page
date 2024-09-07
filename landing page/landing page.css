@@ -1,0 +1,287 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(51, 51, 51);
+    background-color: rgb(255, 255, 255);
+    line-height: 1.6;
+}
+
+header{
+    background-color: rgb(255, 255, 255);
+    border-bottom: 2px solid rgb(221, 221, 221);
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .logo{
+    max-width: 140px;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+}
+
+nav ul li{
+    margin-left: 20px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: rgb(51, 51, 51);
+    font-weight: bold;
+    padding: 5px 10px;
+    transition: color 0.3 ease;
+}
+
+nav ul li a:hover{
+    color: rgb(232, 70, 29);
+    text-decoration: underline;
+}
+
+.Cherry{
+    display: flex;
+    background: rgb(255, 255, 255);
+    padding: 50px 20px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.Cherry .img img{
+    max-width: 100%;
+    height: auto;
+}
+
+.Cherry .cherries{
+    margin-left: 20px;
+}
+
+.Cherry h1{
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+.Cherry h2{
+    font-size: 1.25rem;
+    margin-bottom: 20px;
+}
+
+.Cherry button{
+    background-color: rgb(232, 73, 29);
+    color: rgb(255, 255, 255);
+    padding: 10px 20px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3 ease;
+}
+
+.Cherry button:hover{
+    background-color: rgb(215, 55, 28);
+}
+
+.Cherry .links a{
+    margin: 0 10px;
+    color: rgb(51, 51, 51);
+    font-size: 24px;
+    transition: color 0.3s ease;
+}
+
+.Cherry .links a:hover{
+    color: rgb(232, 73, 29);
+}
+
+#about{
+    background-color: rgb(255, 255, 255);
+    padding: 60px 20px;
+    text-align: center;
+}
+
+#about h1{
+    font-variant: small-caps;
+}
+
+#about img{
+    margin: 20px 0;
+    max-width: 100%;
+    height: auto;
+}
+
+#about p{
+    margin: 0 auto;
+    font-size: 1rem;
+    font-style: italic;
+    max-width: 800px;
+}
+
+#varieties{
+    padding: 60px 20px;
+    background-color: rgb(243, 243, 243);
+}
+
+#varieties h1{
+    margin-bottom: 30px;
+    font-variant: small-caps;
+    text-align: center;
+}
+
+#varieties .list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;    
+}
+
+#varieties .list > div{
+    margin: 10px;
+    padding: 20px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 8px;
+    box-shadow: 3px 7px 7px 3px rgba(0,0,0,0.1);
+    text-align: center;
+    max-width: 300px;
+}
+
+#varieties .list > div:hover{
+    transform: translateY(-15px);
+}
+
+#varieties .list img{
+    margin-bottom: 10px;
+    max-width: 100%;
+    height: auto;
+}
+
+#varieties h2{
+    margin-bottom: 10px;
+    font-size: 1.5rem;
+}
+
+#varieties p{
+    font-size: 0.9rem;
+    font-style: italic;
+}
+
+#services{
+    background-color: rgb(255, 255, 255);
+    padding: 60px 20px;
+}
+
+#services h1{
+    margin-bottom: 30px;
+    font-variant: small-caps;
+    text-align: center;
+}
+
+#services .list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#services .list > div{
+    margin: 10px;
+    padding: 20px;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 2px 4px 4px 2px rgba(0,0,0,0.1);
+    max-width: 250px;
+    background-color: rgb(255, 255, 255);
+}
+
+#services img{
+    margin-bottom: 10px;
+    max-width: 100%;
+    height: auto; 
+}
+
+#services h2{
+    margin-bottom: 10px;
+    font-size: 1.5rem;
+}
+
+#services p{
+    font-size: 0.9rem;
+    font-style: italic;
+}
+
+#benefits{
+    padding: 60px 20px;
+    text-align: center;
+    background-color: rgb(249, 249, 249); 
+}
+
+#benefits h1{
+    font-variant: small-caps;
+}
+
+#benefits iframe{
+    border: none;
+    width: 100%;
+    height: 560px;
+}
+
+#contact{
+    padding: 60px 20px;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+}
+
+#contact h1{
+    margin-bottom: 20px;
+    font-variant: small-caps;
+}
+
+#contact h2{
+    margin-bottom: 20px;
+}
+
+#contact button{
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    color: rgb(255, 255, 255);
+    background-color: rgb(232, 73, 29);
+    cursor: pointer;
+    transition: background-color 0.3 ease;
+}
+
+#contact button:hover{
+    background-color: rgb(215, 55, 28);
+}
+
+footer{
+    padding: 10px 20px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    background-color: rgb(51, 51, 51);
+}
+
+footer p{
+    margin: 0;
+}
+
+.top{
+    color: rgb(232, 73, 29);
+    text-decoration: none;
+}
+
+.top:hover{
+    text-decoration: underline;
+}
+
+h3{
+    margin-top: 10px;
+    font-size: 1rem;
+}
+
+
